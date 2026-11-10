@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  background: #1565c0;
+  color: white;
+}
+
+.header {
+  background: #2196f3;
+  padding: 16px 24px 0;
+}
+
+.header h1 {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.tab:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.tab.active {
+  color: gold;
+  border-bottom-color: gold;
+}
+
+.tab-content {
+  padding: 24px;
+}
+
+.tab-content h2 {
+  margin: 0 0 12px;
+  font-weight: 400;
+}
+
+.tab-content p {
+  line-height: 1.6;
+  max-width: 700px;
+}
