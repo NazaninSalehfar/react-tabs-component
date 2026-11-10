@@ -2,6 +2,8 @@
 
 A tabs component built with React (Vite) without any extra packages. Clicking a tab switches the content, and the app remembers the last active tab.
 
+![Tabs component preview](screenshots/preview.png)
+
 ## Features
 
 - Click on a tab to change the content
