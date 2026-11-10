@@ -4,6 +4,8 @@ A tabs component built with React (Vite) without any extra packages. Clicking a 
 
 ![Tabs component preview](screenshots/preview.png)
 
+**Live demo:** [react-tabs-component.vercel.app](https://react-tabs-component.vercel.app)
+
 ## Features
 
 - Click on a tab to change the content
